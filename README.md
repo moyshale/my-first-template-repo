@@ -14,6 +14,7 @@ Playground for github template repos.  __template repository__
 * https://sparkbox.com/foundry/how_to_build_github_starter_templates_for_Eleventy_to_make_your_projects_easier
 
 ## notes
+### Create template repo
 You can create a template from an existing repository. Anyone with access to the template repository can create a new repository based on the template with the same directory structure, branches, and files..
 
 To create a template repository, you must create a repository, then make the repository a template.
@@ -28,6 +29,28 @@ __Note__: You can use a template repository as starter code for an assignment on
 
 click  Settings. -> template repo
 ![setting:repo template](/assets/images/gh-template-repo-settings.png)
+
+### Create new repo from template repo
+https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
+
+Creating a repository from a template is similar to forking a repository, but there are important differences:
+
+* A new fork includes the entire commit history of the parent repository, while a repository created from a template starts with a single commit.
+Commits to a fork don't appear in your contributions graph, while commits to a repository created from a template do appear in your contribution graph.
+* A fork can be a temporary way to contribute code to an existing project, while creating a repository from a template starts a new project quickly.
+* For more information about forks, see [About forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)
+
+1. On GitHub.com, navigate to the main page of the repository.
+1. Above the file list, click Use this template.
+1. Select Create a new repository.
+1. Use the Owner dropdown menu to select the account you want to own the repository.
+1. Type a name for your repository, and an optional description.
+1. Choose a repository visibility. For more information, see "About repositories."
+1. Optionally, to include the directory structure and files from all branches in the template, and not just the default branch, select Include all branches.
+1. Optionally, if the personal account or organization in which you're creating uses any GitHub Apps from GitHub Marketplace, select any apps you'd like to use in the repository.
+1. Click Create repository from template.
+
+https://github.com/moyshale/my-copy-of-first-template-repo-no-branches
 
 ## features
 * Copy all of the files from the old repository to a new one.
