@@ -27,6 +27,7 @@ __Note__: You can use a template repository as starter code for an assignment on
 ?? what is starter code for assignment ?? https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-an-assignment-from-a-template-repository
 
 click  Settings. -> template repo
+![setting:repo template](/assets/images/gh-template-repo-settings.png)
 
 ## features
 * Copy all of the files from the old repository to a new one.
